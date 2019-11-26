@@ -81,6 +81,7 @@ All logic can be handled within a StatefulWidget. This allows you to resuse the 
 {{< file "dart" "main.dart" >}}
 {{< highlight dart >}}
 import 'dart:io';
+import 'dart:async';
 import 'package:flutter/material.dart';
 
 import 'package:firebase_messaging/firebase_messaging.dart';
